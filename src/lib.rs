@@ -33,6 +33,7 @@ enum HeapAllocator {
     BuddyAllocator,
 }
 
+/// Error type for allocation failure.
 #[derive(Copy, Clone, PartialEq, Eq, Debug)]
 pub struct AllocError;
 
